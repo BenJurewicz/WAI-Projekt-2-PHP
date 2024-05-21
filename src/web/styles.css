@@ -1,0 +1,106 @@
+.title {
+	font-size: 3rem;
+	text-align: center;
+}
+
+nav {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+
+nav a {
+	font-size: 1.1rem;
+	text-decoration: none;
+	color: #000;
+	background-color: #777;
+	padding: 0.5rem;
+	border-radius: 1rem;
+}
+
+nav a .active {
+	border: 0.1rem solid #a0a;
+}
+
+nav a:hover {
+	background-color: #444;
+}
+
+.basicForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.galleryCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
+	background-color: #aaa;
+	border-radius: 1rem;
+}
+
+.galleryCard img {
+	border-radius: 1rem;
+}
+
+.galleryCard h3,
+h4 {
+	margin: 0;
+}
+
+.pageButtonWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+
+.pageButtonWrapper button {
+	padding: 0.4rem;
+	font-size: 1.2rem;
+	max-height: 3rem;
+}
+
+.pageButtonWrapper p {
+	font-size: 1.2rem;
+}
+
+.privateText {
+	text-align: center;
+}
+
+.privateFormWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.errorList {
+	margin-top: 1rem;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.margin0 {
+	margin: 0;
+}
